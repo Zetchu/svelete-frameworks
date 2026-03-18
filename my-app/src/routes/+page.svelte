@@ -1,12 +1,5 @@
-<h1>Welcome to my counter yupii 🥳</h1>
 <script>
-	let count = $state(0);
+	import Counter from "$lib/Counter.svelte";
 
-	function increment() {
-		count += 1;
-	}
 </script>
-
-<button onclick={increment}>
-    Count: {count}
-</button>
+<Counter />
